@@ -1,0 +1,5 @@
+; This is a zone-signing key, keyid 57798, for 114.168.192.in-addr.arpa.
+; Created: 20180404052104 (Wed Apr  4 17:21:04 2018)
+; Publish: 20180404052104 (Wed Apr  4 17:21:04 2018)
+; Activate: 20180404052104 (Wed Apr  4 17:21:04 2018)
+114.168.192.in-addr.arpa. IN DNSKEY 256 3 8 AwEAAc4pUtjXqnZOhs1E1jLRCtAI/kvjSORoRCQcz168dOc+5Lp/3aOL ZglYs6f23dk5I7zXfd231Z9est9K2VznhxXEvJ8b0kwj2m3Y+LCsn70F /5PJDOXBSEs4WUwwqwJ2N9dkyJ7WIxHGKd49aAOivD5K4ehdcB3EFp75 2nywScTn

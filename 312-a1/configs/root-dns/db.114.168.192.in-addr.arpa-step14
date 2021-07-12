@@ -1,0 +1,13 @@
+$TTL 30
+
+@    IN         SOA     .       rz56.students.waikato.ac.nz. (
+                        2018040401      ;Serial
+			3600            ;Refresh
+			600             ;Retry
+	                2419200         ;Expire
+			600)            ;Negatice Cache TTL
+
+@    IN		NS	a.root-servers.net.
+1    IN         PTR     a.root-servers.net.
+2    IN         PTR     a.nz-servers.net.
+3    IN         PTR     ns.rz56.nz.

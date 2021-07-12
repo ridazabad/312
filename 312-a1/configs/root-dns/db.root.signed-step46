@@ -1,0 +1,158 @@
+; File written on Thu Apr  5 16:00:17 2018
+; dnssec_signzone version 9.10.3-P4-Debian
+.			30	IN SOA	. rz56.students.waikato.ac.nz. (
+					2018040401 ; serial
+					3600       ; refresh (1 hour)
+					600        ; retry (10 minutes)
+					2419200    ; expire (4 weeks)
+					600        ; minimum (10 minutes)
+					)
+			30	RRSIG	SOA 8 0 30 (
+					20180701144907 20180405030017 6453 .
+					ihGem0/qYvLhVcZU7olHVQynLnHlmgF97QUr
+					rbGM+D2Q83zsWFXH6ZQ7IlxZHHualDBcXwAU
+					tjLZ/Q8LIoLVv+nT5PCtkueS5g3bMpBEOfSV
+					U0jX9OecmH6P0cxaQ7pivUNSsJG1UoX79Srm
+					IM/nuLxUjyXXr/2gx31N8A53aG0= )
+			30	NS	a.root-servers.net.
+			30	RRSIG	NS 8 0 30 (
+					20180701144907 20180405030017 6453 .
+					uJOG1jD2gelIHIvdy5M7pWe4I0UW5CUr/w/g
+					K9wOt0ZO6Dv9YSHYm0EU/ymSQlfQlfvmUS+1
+					Q0h91n9QaXAFtfaoypn1X3Ymcy0NvuMCfo/l
+					n/BgU0WYIk2odqrLB3BWbqkxIgFHxW/sZ7IN
+					DrQ7itsawNWBH5hME68uvhxJENM= )
+			600	NSEC	114.168.192.in-addr.arpa. NS SOA RRSIG NSEC DNSKEY
+			600	RRSIG	NSEC 8 0 600 (
+					20180701144907 20180405030017 6453 .
+					Wo1X1P7E+R8t6VuHgWfIqrKyksYXi6wJyNlL
+					kQUoOs1oldg+5jArIFlNFf9m0Hm1z1S80K/x
+					965z5ZgeGaNfvQsZqMYrLqEqiDH9Y6QKcnn9
+					xUmOXwnrgxAAgRIdo991Nd7ReexxKi70ckCC
+					aaGEFltt0DR8hmciMebzBiRnzGU= )
+			30	DNSKEY	256 3 8 (
+					AwEAAdTFXVSFup+OfekgoYWSsUd/u1k/HanW
+					a2LgqymTlYZowDuC2ylpbTKHFj0xkFICFa/A
+					by9dQBk/CgrkYNqkvLSwRwXrSaHELavh6k8c
+					rtq6u7Em1WwAGrK0kmwoobIfHIMDqLVvdp9E
+					CssKTMGI3VY826Jt4OjtHeLb38VuTTur
+					) ; ZSK; alg = RSASHA256; key id = 6453
+			30	DNSKEY	257 3 8 (
+					AwEAAaxB5FGUTIr3+IFs1CN/AI8pS53i82Iw
+					e24tTPZv35RCxFo2NnAZLbjBo3NxSMbkcdU+
+					5s6osN5jaxgNtEmIxBxuHBnhpbOYh9ZIctNW
+					5GV2sbMw7jmlZhpWBi6NkOKI6MsfTGioams8
+					qnbCh3afLhnnaAYPr7q5VA8F8nCRZFYYx7s+
+					xCHsWfAHSX1ixFnmce1AtuUhaLjTp2UcKbSh
+					ae86PnRc4ECucJT4lttmxQAO7+Ozfyc8LhSY
+					NPz6q+iGXATrQeQkvYILXSusvgXKKvt0yc9o
+					bhl3WJg1DLeQ0REiRT8icSWCnSrNXtITuRMi
+					KHoY3TeiO3MLhMAoLaN0Lzs=
+					) ; KSK; alg = RSASHA256; key id = 58411
+			30	RRSIG	DNSKEY 8 0 30 (
+					20180701144907 20180405030017 6453 .
+					v/vtPwouOvmK+pEgvDDtosYig2H6Ik1IMmGW
+					bm97bvMNMwBeagbdRMDy4xGihcslWbWmhpF9
+					kxY+a2pHqJBGGrb2WcqpglHEcdcGE8DrTI4J
+					NwW085XVg8go6MfQlnIYgxIisnx54kCkDppL
+					epKlolG23h0ipSquPRuhS7lFGEo= )
+			30	RRSIG	DNSKEY 8 0 30 (
+					20180701144907 20180405030017 58411 .
+					YTngnwSsfbyBU+YwX1isWExOvaWp/1kE2ohA
+					54CAcKbYRrm74oYfz8KveojGD+3ECYPDecgg
+					lohWzr8IblFZoRLLOtyG/f/2Tsqc0T9GQU7r
+					QkOXUBg1dYSvd8dn37ZGeM0jx5P9MLpzcqN0
+					z0LKQgrHUfZD2id2iOsEo5RyFAB499jcMG4C
+					FfIlyKwfHtNotgA6tJvLAhrtKQ4jou7QxZwe
+					z2H3TWKZie+9Ph4TgN37n+5ofuSa3P8PxYGa
+					1L8dCur3n5w1+iO9KMU/KXCdsORLvXC7BmbH
+					2HJ2yS1cjNeVrzaojjkG5/grdOjIepAk68yL
+					ijfjpw52tiFdyjie6w== )
+114.168.192.in-addr.arpa. 30	IN NS	a.root-servers.net.
+			30	DS	28084 8 1 (
+					B34915F4C59FE41645272A69141C9387724C
+					6432 )
+			30	DS	28084 8 2 (
+					0116251B4DDBD8C61ABD0EC773F04D44AF61
+					CB3C280B2F43D27A3FD538D0E2DD )
+			30	RRSIG	DS 8 5 30 (
+					20180701144907 20180405030017 6453 .
+					iWLe7tKdDxaKhtClI0eRyKFWtD8iHw8N+oCU
+					IoqV0S1G5m5OXV9XmZGIO9cpNnI0I6ZF2kOp
+					/NA6tCFVSFFlew6Mf/K7oMCT8K4kcDTwVW83
+					xmcVcEajgVEelc7fRIy5i0uVoUqPm8cV44g+
+					OWOIzm9DLGp75XV7/eqCaaNZ7Ys= )
+			600	NSEC	a.nz-servers.net. NS DS RRSIG NSEC DNSKEY
+			600	RRSIG	NSEC 8 5 600 (
+					20180701144907 20180405030017 6453 .
+					CyDhNVItHzvkUcbbC5GhLUEhrjvAfd6CEn3T
+					I7ws7uynvNx9New5HBJmnXJgkw3uOGYFpD7x
+					Zbrga6JyWmQXJOLj1nOM4al4FFFEgvYXqqVP
+					aYEemGoWRGwwyXztpdewX4ICygSthCHEBqZE
+					JSs/bfrJuthjQovGeUazVnkQV20= )
+			30	DNSKEY	257 3 8 (
+					AwEAAdG6DSxWjfVhMhnOtCxMrgaemEQs2YuE
+					+7zpLqvfqKgz/+Uz9eoipMD2q6nKAB34h/3Q
+					reHmhFx8mgLvgKWutf7SPBUAlgThIZ+1PHja
+					iignKrZ3Uo3Y9hxdklK8JW8nlXzxQPx6ejnB
+					eD8XtRnnkGZvx/dotJkJ8+1lSUUnUU5EC1uP
+					2ooXE9YhfO9/D37+6+AQiQMr57f5s53e8vq9
+					vvP7knbYpidwKq++dsR1VckwtvaA+TySsE0/
+					lDvjZa3r23YiAri7vUr6KSo3EauYCbACUgZV
+					1sWAA8sWWFxvq1T0Of3UEkyhH5Ic4i71Xboc
+					q5l/TeJLo7NL4VDMoaXxdI8=
+					) ; KSK; alg = RSASHA256; key id = 28084
+a.nz-servers.net.	30	IN A	192.168.114.2
+			30	RRSIG	A 8 3 30 (
+					20180701144907 20180405030017 6453 .
+					ghRkt7FzyfB6+3nmvg4urld6AJ/rvQy8U88Q
+					JP283hKFLY3SoZYhyhb8qJNn4aKsX8n/8orr
+					9rINePEqYNxdNX9zGAO7LZVJogyoeQIfiz3x
+					Eg2deXkoUoCVE23Msat0+k2yKE+7Qg12vmU/
+					YDp8VxQ4heLAmnnQ3ZPbJQyylVQ= )
+			600	NSEC	a.root-servers.net. A RRSIG NSEC
+			600	RRSIG	NSEC 8 3 600 (
+					20180701144907 20180405030017 6453 .
+					nuOiURezTMJy8g6Zhx/MS9O/HEvxB3O0yh+o
+					LieYXXg2ttBB2OCn9qHy4ZIRqUk1lJ1qTKzS
+					b7ZuKskxL7o5OBGQMaLtlcam6SmkPQxRgbiK
+					ZrV7Q/yzMV8fAWKAz3O4MCSL679vzRuGO8WH
+					3honSS8SAviaz4AYH/S/GObVt1E= )
+a.root-servers.net.	30	IN A	192.168.114.1
+			30	RRSIG	A 8 3 30 (
+					20180701144907 20180405030017 6453 .
+					Q0r3/PFb46Lr7Fat8vWpmBJHIxqOZOLNiBB4
+					E7E8Qd5yZ/boScMY7+vSziZD7tvsqIBXDhyp
+					k6M6YRQxOF12jZLveSzWnGLaxa5Lp1tlb6Jd
+					MCrlAoJyVQKKXQAF7Zq5gCvUdjF51HYEipaX
+					1vUbFeWHCF9ffsZpeXTonDn1SFk= )
+			600	NSEC	nz. A RRSIG NSEC
+			600	RRSIG	NSEC 8 3 600 (
+					20180701144907 20180405030017 6453 .
+					H6lRX8HFuPTgppUsjDv53ZHBB2x5c/2n2gXi
+					LtiYq/C00f483dIpIOQzCl7FPZ5dw8vVaGRg
+					bCDNWO2tgJry1fceamb8EzJiLPR8CqyD446A
+					kjEWN4yif+TZKAzkCl0qaItBVWfLjDWMzFfP
+					ZqekAXTN6miWa/pkS4Ksv8SZF1g= )
+nz.			30	IN NS	a.nz-servers.net.
+			30	DS	9652 8 1 (
+					477230BB9AA5535FB2281BDA1AF909409632
+					1247 )
+			30	DS	9652 8 2 (
+					18B5B2D9E2AC1E4A3E4A9FD7D02C20899E05
+					363FCD758BD4FA3F3A4C04B35394 )
+			30	RRSIG	DS 8 1 30 (
+					20180701144907 20180405030017 6453 .
+					N2in1AKs2W+h52tXM0osMtfsKcPIveejt8fm
+					mzpTiamfZQFzL4M9/XOdsi9hDWND5f6uNDJE
+					VVbXE9a/WCcPjzb5Bagg5teY7MCxQBUgJILX
+					BUOToyE+w2/yTuyeGDbyBr7FNLMWruOMM/JK
+					HutLWm1TKNVCS3LUJw3Zjx5/zeo= )
+			600	NSEC	. NS DS RRSIG NSEC
+			600	RRSIG	NSEC 8 1 600 (
+					20180701144907 20180405030017 6453 .
+					Iy+Vp5IQOrqL0fNZexOQJ72/piK8GzgcYiGu
+					Jc/m0jvdGbDjUSbeENAE06tOoogduCv95SzR
+					2uKx1eWdiMbH6TsvNcv5+5FOwYdRAZFktvDE
+					+4tIsB1v7D77Bfn/JmgrYa2wQGSiDwoMHZjM
+					nO9o1zqcHapbvY0Vbtqu/F7f9g8= )

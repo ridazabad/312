@@ -1,0 +1,5 @@
+; This is a zone-signing key, keyid 37356, for rz56.nz.
+; Created: 20180405034602 (Thu Apr  5 15:46:02 2018)
+; Publish: 20180405034602 (Thu Apr  5 15:46:02 2018)
+; Activate: 20180405034602 (Thu Apr  5 15:46:02 2018)
+rz56.nz. IN DNSKEY 256 3 8 AwEAAc0TOlbS+e8k20boJLTM/2cLjl81M94+02vlDMH012YoXaYI+oKJ 0Xdql06vrmQYb/BRepkMML05umtd0TpsVvV2z/DtN+3u+DHFHVyi1v2K 72i5pQt3+J1HZ6Vxs85po6rBV58JjMoNY+eZ9a1n2gLkCNpx9K/DkTbo RubJ8zCX

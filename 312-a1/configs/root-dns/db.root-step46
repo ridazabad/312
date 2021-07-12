@@ -1,0 +1,42 @@
+$TTL 30
+
+@    IN		SOA	.		rz56.students.waikato.ac.nz. (
+
+     			2018040401	;Serial
+			3600		;Refresh
+			600		;Retry
+			2419200		;Expire
+			600)		;Negative Cache TTL
+
+     			IN		NS 	a.root-servers.net.	
+     
+a.root-servers.net.     IN		A	192.168.114.1
+
+nz.			IN		NS	a.nz-servers.net.
+
+a.nz-servers.net.	IN		A	192.168.114.2
+
+114.168.192.in-addr.arpa	IN	NS	a.root-servers.net.
+
+; This is a zone-signing key, keyid 6453, for .
+; Created: 20180404025514 (Wed Apr  4 14:55:14 2018)
+; Publish: 20180404025514 (Wed Apr  4 14:55:14 2018)
+; Activate: 20180404025514 (Wed Apr  4 14:55:14 2018)
+. IN DNSKEY 256 3 8 AwEAAdTFXVSFup+OfekgoYWSsUd/u1k/HanWa2LgqymTlYZowDuC2ylp bTKHFj0xkFICFa/Aby9dQBk/CgrkYNqkvLSwRwXrSaHELavh6k8crtq6 u7Em1WwAGrK0kmwoobIfHIMDqLVvdp9ECssKTMGI3VY826Jt4OjtHeLb 38VuTTur
+
+; This is a key-signing key, keyid 58411, for .
+; Created: 20180404024907 (Wed Apr  4 14:49:07 2018)
+; Publish: 20180404024907 (Wed Apr  4 14:49:07 2018)
+; Activate: 20180404024907 (Wed Apr  4 14:49:07 2018)
+. IN DNSKEY 257 3 8 AwEAAaxB5FGUTIr3+IFs1CN/AI8pS53i82Iwe24tTPZv35RCxFo2NnAZ LbjBo3NxSMbkcdU+5s6osN5jaxgNtEmIxBxuHBnhpbOYh9ZIctNW5GV2 sbMw7jmlZhpWBi6NkOKI6MsfTGioams8qnbCh3afLhnnaAYPr7q5VA8F 8nCRZFYYx7s+xCHsWfAHSX1ixFnmce1AtuUhaLjTp2UcKbShae86PnRc 4ECucJT4lttmxQAO7+Ozfyc8LhSYNPz6q+iGXATrQeQkvYILXSusvgXK Kvt0yc9obhl3WJg1DLeQ0REiRT8icSWCnSrNXtITuRMiKHoY3TeiO3ML hMAoLaN0Lzs=
+
+; This is a key-signing key, keyid 28084, for 114.168.192.in-addr.arpa.
+; Created: 20180404052057 (Wed Apr  4 17:20:57 2018)
+; Publish: 20180404052057 (Wed Apr  4 17:20:57 2018)
+; Activate: 20180404052057 (Wed Apr  4 17:20:57 2018)
+114.168.192.in-addr.arpa. IN DNSKEY 257 3 8 AwEAAdG6DSxWjfVhMhnOtCxMrgaemEQs2YuE+7zpLqvfqKgz/+Uz9eoi pMD2q6nKAB34h/3QreHmhFx8mgLvgKWutf7SPBUAlgThIZ+1PHjaiign KrZ3Uo3Y9hxdklK8JW8nlXzxQPx6ejnBeD8XtRnnkGZvx/dotJkJ8+1l SUUnUU5EC1uP2ooXE9YhfO9/D37+6+AQiQMr57f5s53e8vq9vvP7knbY pidwKq++dsR1VckwtvaA+TySsE0/lDvjZa3r23YiAri7vUr6KSo3EauY CbACUgZV1sWAA8sWWFxvq1T0Of3UEkyhH5Ic4i71Xbocq5l/TeJLo7NL 4VDMoaXxdI8=
+114.168.192.in-addr.arpa. IN DS 28084 8 1 B34915F4C59FE41645272A69141C9387724C6432
+
+114.168.192.in-addr.arpa. IN DS 28084 8 2 0116251B4DDBD8C61ABD0EC773F04D44AF61CB3C280B2F43D27A3FD538D0E2DD
+nz. IN DS 9652 8 1 477230BB9AA5535FB2281BDA1AF9094096321247
+nz. IN DS 9652 8 2 18B5B2D9E2AC1E4A3E4A9FD7D02C20899E05363FCD758BD4FA3F3A4C04B35394

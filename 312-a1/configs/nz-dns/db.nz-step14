@@ -1,0 +1,19 @@
+$TTL 30
+
+@    IN		SOA	nz.	rz56.students.waikato.ac.nz. (
+     			2018040401	;Serial
+			3600		;Refresh
+			600		;Retry
+			2419200		;Expire
+			600)		;Negative Cache	TTL
+
+
+     			IN		NS	a.nz-servers.net.
+
+a.nz-servers.net. 	IN		A	192.168.114.2
+
+rz56.nz.		IN		NS	ns.rz56.nz.
+
+ns.rz56.nz.		IN		A	192.168.114.3
+
+www.nz.			IN		A	192.168.114.2

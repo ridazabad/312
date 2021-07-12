@@ -1,0 +1,5 @@
+; This is a zone-signing key, keyid 17724, for nz.
+; Created: 20180405031331 (Thu Apr  5 15:13:31 2018)
+; Publish: 20180405031331 (Thu Apr  5 15:13:31 2018)
+; Activate: 20180405031331 (Thu Apr  5 15:13:31 2018)
+nz. IN DNSKEY 256 3 8 AwEAAcA9wHO4Boya9tNyQ4F4okj+XmKndcMTj/dnx+ajpax088FZVzm+ smp2HcIiu5C0F33ZLPB/TaMZRtdm8WCNND2QeUw5SUwedkOOxmbWaMvb yu83hyeNStWhr4HgL1vRXmRKyY0RRzxjjWmtjG1t/4bt5FHjDr92dRtj oFUNScYX

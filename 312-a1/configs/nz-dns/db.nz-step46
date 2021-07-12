@@ -1,0 +1,33 @@
+$TTL 30
+
+@    IN		SOA	nz.	rz56.students.waikato.ac.nz. (
+     			2018040401	;Serial
+			3600		;Refresh
+			600		;Retry
+			2419200		;Expire
+			600)		;Negative Cache	TTL
+
+
+     			IN		NS	a.nz-servers.net.
+
+a.nz-servers.net. 	IN		A	192.168.114.2
+
+rz56.nz.		IN		NS	ns.rz56.nz.
+
+ns.rz56.nz.		IN		A	192.168.114.3
+
+www.nz.			IN		A	192.168.114.2
+;This is a zone-signing key, keyid 17724, for nz.
+; Created: 20180405031331 (Thu Apr  5 15:13:31 2018)
+; Publish: 20180405031331 (Thu Apr  5 15:13:31 2018)
+; Activate: 20180405031331 (Thu Apr  5 15:13:31 2018)
+nz. IN DNSKEY 256 3 8 AwEAAcA9wHO4Boya9tNyQ4F4okj+XmKndcMTj/dnx+ajpax088FZVzm+ smp2HcIiu5C0F33ZLPB/TaMZRtdm8WCNND2QeUw5SUwedkOOxmbWaMvb yu83hyeNStWhr4HgL1vRXmRKyY0RRzxjjWmtjG1t/4bt5FHjDr92dRtj oFUNScYX
+
+; This is a key-signing key, keyid 9652, for nz.
+; Created: 20180405031213 (Thu Apr  5 15:12:13 2018)
+; Publish: 20180405031213 (Thu Apr  5 15:12:13 2018)
+; Activate: 20180405031213 (Thu Apr  5 15:12:13 2018)
+nz. IN DNSKEY 257 3 8 AwEAAe1uxCfsxclFlcqu0HeSXrejI+EEzZ65uByfSKRg5F7RRrqRm7q5 QBkTtl/NxrK4QRtZfQ4eAWW7ADvUcRwDneJFNNkW9HfdqXYyxX/+HlOX u2uwaw6xn1YpjSv60myRxfO98SV9p1cySYDWeEGaPyBMU6ncSi2q6YIw DLrOCY6t8c9mDrq8eihREGDwutFYCaevMLJ/zTB/qejNfvfSn6rUWFDf HjZc4GB0wz6hmlktXhjCbeWZ2/SedW8fOkBjy7zfS8A8MGACugH2bCsn J3PiPhlLxhdU9fPgPUenLjGnWsen8ifL2CtlbUDVE7GuwBpCgVgqTy50 BWOAMPc6ndM=
+
+rz56.nz. IN DS 28729 8 1 D958FE43BEC52DC05FF0AD715D02AF8AAFCCF1ED
+rz56.nz. IN DS 28729 8 2 7AA1F434F10E3B7B70C4CB046B41F209CC7C8F9F8CE7A364DE94B6BA608E96EE

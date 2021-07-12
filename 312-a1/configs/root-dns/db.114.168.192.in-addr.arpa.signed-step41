@@ -1,0 +1,118 @@
+; File written on Wed Apr  4 18:01:09 2018
+; dnssec_signzone version 9.10.3-P4-Debian
+114.168.192.in-addr.arpa. 30	IN SOA	. rz56.students.waikato.ac.nz. (
+					2018040401 ; serial
+					3600       ; refresh (1 hour)
+					600        ; retry (10 minutes)
+					2419200    ; expire (4 weeks)
+					600        ; minimum (10 minutes)
+					)
+			30	RRSIG	SOA 8 5 30 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					ZsX/scEO/G07zK1/eag6AmJPCChU7CHXvedQ
+					dH7+YTb6hbc64WZq25xFFkTn/CwiBbxIrVzB
+					39ZTYzdlpQI3FvKW4lV/tnOT4DE58puQEFC5
+					1OsFTl4zWoHDt9jJdwMlZJ64cMNRhId0zOQE
+					LEvZfJNBRtV+ufAS3qzDKLvqzeg= )
+			30	NS	a.root-servers.net.
+			30	RRSIG	NS 8 5 30 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					q787tvbfAJIu/gYiVtaIH+FdKtoW2qSM/CcY
+					k+lEG28Z4Vpioyrq6+xDt6I9DL7Bqp4jrxnX
+					MCGeUt3bFiuaDXXgsjyIIj1GnAGa3Agm8Ikb
+					COmAeVX0VbvF1+lPaKLEqMe/rHUFl1TRxMj/
+					6UkxKnjnGLQ28+7Ji7N1cIyCVXQ= )
+			600	NSEC	1.114.168.192.in-addr.arpa. NS SOA RRSIG NSEC DNSKEY
+			600	RRSIG	NSEC 8 5 600 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					GJSLOkvlmZMeKskj1JV7XgYbYoz/wF300LWD
+					lsVKELdj9HIL71CWnlyFnob0HldT/4PW2Riw
+					UqEU1f7RnxNw2oVQpJeRUubJKxGVstEF0ErV
+					Va/Zu5yULzpf+ejR38VV6fsKzeFpjMlswvD0
+					BtSXAKucIP//etgAiobNtDd/5fc= )
+			30	DNSKEY	256 3 8 (
+					AwEAAc4pUtjXqnZOhs1E1jLRCtAI/kvjSORo
+					RCQcz168dOc+5Lp/3aOLZglYs6f23dk5I7zX
+					fd231Z9est9K2VznhxXEvJ8b0kwj2m3Y+LCs
+					n70F/5PJDOXBSEs4WUwwqwJ2N9dkyJ7WIxHG
+					Kd49aAOivD5K4ehdcB3EFp752nywScTn
+					) ; ZSK; alg = RSASHA256; key id = 57798
+			30	DNSKEY	257 3 8 (
+					AwEAAdG6DSxWjfVhMhnOtCxMrgaemEQs2YuE
+					+7zpLqvfqKgz/+Uz9eoipMD2q6nKAB34h/3Q
+					reHmhFx8mgLvgKWutf7SPBUAlgThIZ+1PHja
+					iignKrZ3Uo3Y9hxdklK8JW8nlXzxQPx6ejnB
+					eD8XtRnnkGZvx/dotJkJ8+1lSUUnUU5EC1uP
+					2ooXE9YhfO9/D37+6+AQiQMr57f5s53e8vq9
+					vvP7knbYpidwKq++dsR1VckwtvaA+TySsE0/
+					lDvjZa3r23YiAri7vUr6KSo3EauYCbACUgZV
+					1sWAA8sWWFxvq1T0Of3UEkyhH5Ic4i71Xboc
+					q5l/TeJLo7NL4VDMoaXxdI8=
+					) ; KSK; alg = RSASHA256; key id = 28084
+			30	RRSIG	DNSKEY 8 5 30 (
+					20180701173019 20180404050109 28084 114.168.192.in-addr.arpa.
+					wg+ZJysI5sNsJy0f+moLIuO+nMFyCX16JxOS
+					F2d+FnkoSEhZVxNqjOfeMEEEaJR67xyp8hjv
+					dd9+X56w6L+YrP93xaM69nvVArx6XNNiBgCN
+					Eawxj88Ate7iv4NOBUnHslOpVNPRcY5fK7Kw
+					otM9RMgxpU4rgkxqxebjU9Onj4Qu3oFz+6bu
+					6nfd92yCvRtFosA9sBc3IssI4cO3b3QIt6NK
+					Zb1JTUiI3Y2Bz3q6tzUYN/SPVZPR85GA94oN
+					ISkcA0In72T7zWzEZ1dV+ObGUfFFmqEioX6N
+					7wy164cHMZS69OMavupA/E3FPj47IkhTszAo
+					p9FdLSkiw/wr0TTZGA== )
+			30	RRSIG	DNSKEY 8 5 30 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					ITVyP2BHUe8QnXwSkVe1C0T1UI8a10S9kBqb
+					G+FEQwfbLC0/cH96jLoCJLp3EELtBnloYrLo
+					uWdf09fgbhCJBhHmLnJ7vsblDqUTNKFQbYnr
+					gzpLvYYo9N5NanCIXOEyKHzrtRZVb4kf91Yu
+					JN8iTouDky5EZKLJ//vE8oD1Hz8= )
+1.114.168.192.in-addr.arpa. 30	IN PTR	a.root-servers.net.
+			30	RRSIG	PTR 8 6 30 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					QP0ulWITaejOCQ0YtsmoKH41/bzlU5AO2Jq0
+					fX7+zvrTaOJv+J/2pScJ9SR6QNj+pdDz+bmK
+					JQ7qeLIg508e4QAgRC31vtxeka6D6SeEipt9
+					r8V/m2YAspgc7b00Sl971P0X0fTdYHj5l1MQ
+					u/ulHUMOx6zUHhn2baRM0ns5qDE= )
+			600	NSEC	2.114.168.192.in-addr.arpa. PTR RRSIG NSEC
+			600	RRSIG	NSEC 8 6 600 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					GDwgRYTxmxQO3A5thB3tepglnwL98W8lgTVd
+					tMLOUKuRJRYRq6dkZPUbY1yY2zbCiVi4A9oJ
+					eQwsh1+wSHfmV8t7fSIZaa+xqAhEcUIhipd3
+					YKIbxStN9uqUAz8Lz9vttOIImTGeGWRYntbY
+					P2utZeEvE+hLaTI92XEErPIsvEg= )
+2.114.168.192.in-addr.arpa. 30	IN PTR	a.nz-servers.net.
+			30	RRSIG	PTR 8 6 30 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					xlJQBrIOC0Tyhy0cLxUhD7bcCMg3uO/iQt07
+					FwOIOLSOt4UagPSRzMEcLm6fMb8qXA9vRiCK
+					RxfgBH1ktLR0ZShDxeyMGZbLDopjKV5tjDaw
+					sJk/W9HT1cndID70GAR2lphMHeQaoKTvtCbC
+					TsehU3n31nfMjDhibVrJSmN3PpA= )
+			600	NSEC	3.114.168.192.in-addr.arpa. PTR RRSIG NSEC
+			600	RRSIG	NSEC 8 6 600 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					IwESvDoFbMKLpySxrUdnQV3ew5rE92rLNOGj
+					JxSCkFv7AXS6FgzWLWo1HQFISe2typ36BBi4
+					/8UuQCNuY0phgKTQ7YhaU6gLvRgzPQK9AXA1
+					tScExtBqUZOsU/GAm+jppOBVl8kcYRK9rBJz
+					cuOgYk4pLj9PBCT4UPu764zirOc= )
+3.114.168.192.in-addr.arpa. 30	IN PTR	ns.rz56.nz.
+			30	RRSIG	PTR 8 6 30 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					EsDTdAbpbkl9rYmN9CWu62RMW7ZVzqKxSKN+
+					OX0hvEPIrgp+4RuJKdrj2F2BxxlpUnp7eqlY
+					3yuRpd9JdWpCp/uoCSTgLyEiNfYzvvgn1H3X
+					PzO0SJYI7BmAMaaB1lihZ2UlYrK/mC76z2ot
+					dDQifH8MN8LNqKPvpUTVEZC+xZ0= )
+			600	NSEC	114.168.192.in-addr.arpa. PTR RRSIG NSEC
+			600	RRSIG	NSEC 8 6 600 (
+					20180701173019 20180404050109 57798 114.168.192.in-addr.arpa.
+					HooEznCz43jOs7l4fmqoXaNxSLzuF9lZudLU
+					meD/KwwKtsGO3cMs3qzNUmV8XqD2XZxRdCKY
+					1tvleY71Q+fXYgi3xK3OncYMCM4Yp3TD2KJ+
+					EeAPEyuEtx45H0VzKNVRvDvEtuuVMepa7NQ4
+					mvoyoyeZHTR7VYdu6XRQ7v5qWrI= )

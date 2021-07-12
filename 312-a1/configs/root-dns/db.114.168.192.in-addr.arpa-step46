@@ -1,0 +1,25 @@
+$TTL 30
+
+@    IN         SOA     .       rz56.students.waikato.ac.nz. (
+                        2018040401      ;Serial
+			3600            ;Refresh
+			600             ;Retry
+	                2419200         ;Expire
+			600)            ;Negatice Cache TTL
+
+@    IN		NS	a.root-servers.net.
+1    IN         PTR     a.root-servers.net.
+2    IN         PTR     a.nz-servers.net.
+3    IN         PTR     ns.rz56.nz.
+
+; This is a key-signing key, keyid 28084, for 114.168.192.in-addr.arpa.
+; Created: 20180404052057 (Wed Apr  4 17:20:57 2018)
+; Publish: 20180404052057 (Wed Apr  4 17:20:57 2018)
+; Activate: 20180404052057 (Wed Apr  4 17:20:57 2018)
+114.168.192.in-addr.arpa. IN DNSKEY 257 3 8 AwEAAdG6DSxWjfVhMhnOtCxMrgaemEQs2YuE+7zpLqvfqKgz/+Uz9eoi pMD2q6nKAB34h/3QreHmhFx8mgLvgKWutf7SPBUAlgThIZ+1PHjaiign KrZ3Uo3Y9hxdklK8JW8nlXzxQPx6ejnBeD8XtRnnkGZvx/dotJkJ8+1l SUUnUU5EC1uP2ooXE9YhfO9/D37+6+AQiQMr57f5s53e8vq9vvP7knbY pidwKq++dsR1VckwtvaA+TySsE0/lDvjZa3r23YiAri7vUr6KSo3EauY CbACUgZV1sWAA8sWWFxvq1T0Of3UEkyhH5Ic4i71Xbocq5l/TeJLo7NL 4VDMoaXxdI8=
+
+; This is a zone-signing key, keyid 57798, for 114.168.192.in-addr.arpa.
+; Created: 20180404052104 (Wed Apr  4 17:21:04 2018)
+; Publish: 20180404052104 (Wed Apr  4 17:21:04 2018)
+; Activate: 20180404052104 (Wed Apr  4 17:21:04 2018)
+114.168.192.in-addr.arpa. IN DNSKEY 256 3 8 AwEAAc4pUtjXqnZOhs1E1jLRCtAI/kvjSORoRCQcz168dOc+5Lp/3aOL ZglYs6f23dk5I7zXfd231Z9est9K2VznhxXEvJ8b0kwj2m3Y+LCsn70F /5PJDOXBSEs4WUwwqwJ2N9dkyJ7WIxHGKd49aAOivD5K4ehdcB3EFp75 2nywScTn

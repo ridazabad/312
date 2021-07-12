@@ -1,0 +1,145 @@
+; File written on Wed Apr  4 18:03:53 2018
+; dnssec_signzone version 9.10.3-P4-Debian
+.			30	IN SOA	. rz56.students.waikato.ac.nz. (
+					2018040401 ; serial
+					3600       ; refresh (1 hour)
+					600        ; retry (10 minutes)
+					2419200    ; expire (4 weeks)
+					600        ; minimum (10 minutes)
+					)
+			30	RRSIG	SOA 8 0 30 (
+					20180701144907 20180404050353 6453 .
+					g4ii8c4BM/gIyDIfmlZ9Qzl1KXPp+9v951V0
+					FsSNvS+BckI3/JXsL0mlhWbGL40Wun6EfzrF
+					qWfBrSletwD43GSeB3pjs+9odx3sQS8mrrQ4
+					5j3QMZDZTH+qpskOfc2RYL5Ln5ZFKjh2GGDb
+					NyGjsZXp0D+Rdyk+rQ+r23zRUR4= )
+			30	NS	a.root-servers.net.
+			30	RRSIG	NS 8 0 30 (
+					20180701144907 20180404050353 6453 .
+					E65JoSd6SfLvomCn9XKw7q/fuxus5mLfENOL
+					GRDNR6ltDekdtY6yu/sCLQCk3gmLnrKrdDaT
+					0srArpSsA/MnpguMvKC9oIOAzOfVwBGfpxQz
+					KsCnhD4GdH0rJlWZzvg4LokJH4ZjRWdE2Vag
+					D3g3iOFVoXWNax4EmdQZnavKGSg= )
+			600	NSEC	114.168.192.in-addr.arpa. NS SOA RRSIG NSEC DNSKEY
+			600	RRSIG	NSEC 8 0 600 (
+					20180701144907 20180404050353 6453 .
+					ixnZF26I/kcbttzLBFsUaElxbyMUfWDjMAED
+					gD9ijRxEJo8ItDGSjCikP1PjP5Hog2QqfwLl
+					/Dt0qn+uTaF5AP2r+TuzG1FUeJIgNjQqfpjS
+					p19R6Q5irJsrdb6IjWzOTu2slidqzC3FyM5q
+					S5psCakAzyD1xM0xPR/cEsE+UyI= )
+			30	DNSKEY	256 3 8 (
+					AwEAAdTFXVSFup+OfekgoYWSsUd/u1k/HanW
+					a2LgqymTlYZowDuC2ylpbTKHFj0xkFICFa/A
+					by9dQBk/CgrkYNqkvLSwRwXrSaHELavh6k8c
+					rtq6u7Em1WwAGrK0kmwoobIfHIMDqLVvdp9E
+					CssKTMGI3VY826Jt4OjtHeLb38VuTTur
+					) ; ZSK; alg = RSASHA256; key id = 6453
+			30	DNSKEY	257 3 8 (
+					AwEAAaxB5FGUTIr3+IFs1CN/AI8pS53i82Iw
+					e24tTPZv35RCxFo2NnAZLbjBo3NxSMbkcdU+
+					5s6osN5jaxgNtEmIxBxuHBnhpbOYh9ZIctNW
+					5GV2sbMw7jmlZhpWBi6NkOKI6MsfTGioams8
+					qnbCh3afLhnnaAYPr7q5VA8F8nCRZFYYx7s+
+					xCHsWfAHSX1ixFnmce1AtuUhaLjTp2UcKbSh
+					ae86PnRc4ECucJT4lttmxQAO7+Ozfyc8LhSY
+					NPz6q+iGXATrQeQkvYILXSusvgXKKvt0yc9o
+					bhl3WJg1DLeQ0REiRT8icSWCnSrNXtITuRMi
+					KHoY3TeiO3MLhMAoLaN0Lzs=
+					) ; KSK; alg = RSASHA256; key id = 58411
+			30	RRSIG	DNSKEY 8 0 30 (
+					20180701144907 20180404050353 6453 .
+					LeE+zfDfCZ7XxJwZNsiWnzoSIYp3AxXXPk7M
+					Ish5dTr3gehybzoXUvjlXRsE2HITgR5u/Fhc
+					fzHmM3nkmhd9qP6KxdpKSG++py+fIzcOa9cd
+					b/HmGyXe6OkiqiARitk0kMH4G95aDYWRWujp
+					5jBubGlGCifhPHCvim5c6t5rn8I= )
+			30	RRSIG	DNSKEY 8 0 30 (
+					20180701144907 20180404050353 58411 .
+					TtxuBb/JUk4ASqWYqs6CbJDcHMKOQpYKD1C7
+					ttxwNmTlKU50bx/3O9qZl5V5eWuGTpp0V0bJ
+					jQb7YoFRoeMHR9viCnpiygm/+rIT/oegtQlG
+					KBUQrc6IJdz4JPWYDDLzXonkY25paVSjsRxj
+					1vp7Alnp1xKqCXG6GU90hlxCZMmfwHO7I9GP
+					H7GO8/mqKtY8eaBxI7IizfCXgKenOG+A78e9
+					eHFDqvsu4TJzJlAHkwWTiWpj7agCM1cpX2hQ
+					tmeCFMeAwarC8X09p1l31+2t1cvS7pPOjhMt
+					39ANdCAC41SarKV1ZS4WPqlZY6z/snEXN3Ki
+					bENKIRr7dCW3fi9D1A== )
+114.168.192.in-addr.arpa. 30	IN NS	a.root-servers.net.
+			30	DS	28084 8 1 (
+					B34915F4C59FE41645272A69141C9387724C
+					6432 )
+			30	DS	28084 8 2 (
+					0116251B4DDBD8C61ABD0EC773F04D44AF61
+					CB3C280B2F43D27A3FD538D0E2DD )
+			30	RRSIG	DS 8 5 30 (
+					20180701144907 20180404050353 6453 .
+					X5/Xe15WME5iUc+lJZ6Xo7WPbjYTEViZPRtS
+					cpdmQky1l3tab+Qf0zbBU6wQW/pjQR5La4Rk
+					hDAq0MWwoUAX80MwNuwm0Hp7aTFNiJEvUcWK
+					0BC2Cartnv2QtmGusdwWWrO6uOCG7SP6AS41
+					EVpm/fE+BPiFXl3Ym82AKjOp6Ys= )
+			600	NSEC	a.nz-servers.net. NS DS RRSIG NSEC DNSKEY
+			600	RRSIG	NSEC 8 5 600 (
+					20180701144907 20180404050353 6453 .
+					qKod3EG2FzlKvmkj5aINvabOg2cUYrkWbhap
+					43KF2TeZu6VHp1LiXcVToH4P2U/QEKORm7wR
+					ctX8A7zBZBU0W1iK9LEBpKxZg/eZgPbj7VjH
+					VfE8GnmRMqvH2t5UViIbenZ87SwCKSdlW+wF
+					vCh/pk1sw1ASxdyDe73bb8oAp6o= )
+			30	DNSKEY	257 3 8 (
+					AwEAAdG6DSxWjfVhMhnOtCxMrgaemEQs2YuE
+					+7zpLqvfqKgz/+Uz9eoipMD2q6nKAB34h/3Q
+					reHmhFx8mgLvgKWutf7SPBUAlgThIZ+1PHja
+					iignKrZ3Uo3Y9hxdklK8JW8nlXzxQPx6ejnB
+					eD8XtRnnkGZvx/dotJkJ8+1lSUUnUU5EC1uP
+					2ooXE9YhfO9/D37+6+AQiQMr57f5s53e8vq9
+					vvP7knbYpidwKq++dsR1VckwtvaA+TySsE0/
+					lDvjZa3r23YiAri7vUr6KSo3EauYCbACUgZV
+					1sWAA8sWWFxvq1T0Of3UEkyhH5Ic4i71Xboc
+					q5l/TeJLo7NL4VDMoaXxdI8=
+					) ; KSK; alg = RSASHA256; key id = 28084
+a.root-servers.net.	30	IN A	192.168.114.1
+			30	RRSIG	A 8 3 30 (
+					20180701144907 20180404050353 6453 .
+					SDS/BZsq1tPj3Q1PfFTXBw9Gh2G7XUMT/wIK
+					UZiDvcyeviM9nCzaaRMX5L1tpQ3oqhp80XT8
+					+HkVJQ2ph8T35wTbp+Z3RUSvKI0f9sD7gb6e
+					gZLqSxnxHkPoRJbGfM4eQgnii9wXKuYtkP83
+					G0xd9DjS+Vq3dg4XNNSNcCNkHoA= )
+			600	NSEC	nz. A RRSIG NSEC
+			600	RRSIG	NSEC 8 3 600 (
+					20180701144907 20180404050353 6453 .
+					uh4CrvWDPuYDTLiI02h23TGpj6SGGmEM8tJi
+					I5F5uNpVOi+AMIkXNoUgR13XFpX9S+4bmC9n
+					BIHCoQdv+u3Ltn0WyTE+1nQ7b7w03BLa6qfr
+					GtIXZIEfVpuuLE1dbiDjv2n7efXQI5epypKQ
+					2umN1nFUSMwc1Fj7pjl5vSzCgi0= )
+nz.			30	IN NS	a.nz-servers.net.
+			600	NSEC	. NS RRSIG NSEC
+			600	RRSIG	NSEC 8 1 600 (
+					20180701144907 20180404050353 6453 .
+					UFzIOJy0hMsgy1hsF3DGXcM3fFmdUqU+TDx3
+					3MUk1ZJ919JXXgCTKYa4UZk0AUkaa856Q/x7
+					iYI9p0ion+LwVOi1mZJlAlrmymHb0rufj6eD
+					isaDWJdzrD8CHsdRWh7IHgklcSLhqrf9IZ5m
+					PlIgLGWF5tWVh0RPeRkUjoDabzc= )
+a.nz-servers.net.	30	IN A	192.168.114.2
+			30	RRSIG	A 8 3 30 (
+					20180701144907 20180404050353 6453 .
+					TJCx3z+4oS45OacDTwcRUUW6XtM3ImeHwZTk
+					6JzHiyEZ3nn3/Uo3d8CT6KiqgWXeHaD/Fvt2
+					Vpd2/ti6D6mw5yPYwbflJX3RTxhIKkWMebZN
+					ROzPw/ZULC7vka+l6Ncsc4do949Sni2wAsIN
+					j842Thw7eEyJK0TtyoB6aUvGsUw= )
+			600	NSEC	a.root-servers.net. A RRSIG NSEC
+			600	RRSIG	NSEC 8 3 600 (
+					20180701144907 20180404050353 6453 .
+					j5rKtVU25b/zGuTWCOcplnPDtu8CWJUf8iag
+					33vbNt01pyCEZxqY9UsdQT+O8hrh/9aVM8hK
+					7ntmqtrae7p2qh4z2M1ovl2WU7feMjUiCRJ0
+					utLbPPrR+zlqzA1b+R2FwFk5pHXf+XIovG+t
+					SYSWcKfBAWk9iB8PJnowKJEFP6c= )

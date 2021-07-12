@@ -1,0 +1,5 @@
+; This is a zone-signing key, keyid 6453, for .
+; Created: 20180404025514 (Wed Apr  4 14:55:14 2018)
+; Publish: 20180404025514 (Wed Apr  4 14:55:14 2018)
+; Activate: 20180404025514 (Wed Apr  4 14:55:14 2018)
+. IN DNSKEY 256 3 8 AwEAAdTFXVSFup+OfekgoYWSsUd/u1k/HanWa2LgqymTlYZowDuC2ylp bTKHFj0xkFICFa/Aby9dQBk/CgrkYNqkvLSwRwXrSaHELavh6k8crtq6 u7Em1WwAGrK0kmwoobIfHIMDqLVvdp9ECssKTMGI3VY826Jt4OjtHeLb 38VuTTur

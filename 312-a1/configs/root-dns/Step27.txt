@@ -1,0 +1,26 @@
+; <<>> DiG 9.10.3-P4-Debian <<>> www.rz56.nz. @192.168.114.1 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55037
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 3, ADDITIONAL: 3
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;www.rz56.nz.			IN	A
+
+;; AUTHORITY SECTION:
+nz.			30	IN	NS	a.nz-servers.net.
+nz.			600	IN	NSEC	. NS RRSIG NSEC
+nz.			600	IN	RRSIG	NSEC 8 1 600 20180701144907 20180404032401 6453 . I5ij2AZ3SRMi/bwmdSogAwidSFIQ0/YflTJ3jsZgwS3Y7iFDtLn1g4Ha Skjfdv5C67e0RZN2XAX8QDpjHkQ7GCZVMQ/1g+Iz+7+05wOFueYbXYha ceOU3qG8wegQw0j299cRQrxX2Khwz/00AzyphBkIZVmA2/NEaW626C+l s2c=
+
+;; ADDITIONAL SECTION:
+a.nz-servers.net.	30	IN	A	192.168.114.2
+a.nz-servers.net.	30	IN	RRSIG	A 8 3 30 20180701144907 20180404032401 6453 . Jw1wLuX6nJ1LD+M+y3KZgY/VSGTOdoC9Dr79dQY2LlG9PPgl4uVNOj2q 7p+FXDU1ONVGjWuA0Dz8DBoQ8bYjZO88LpbKl53udk9yIQxNTUu0Nt+/ zeeS66BmoVJ6VDlWS3ZG2taYSYPEyx1yznlmf+sol0PwBgg6nVDZv8Hl ZoE=
+
+;; Query time: 0 msec
+;; SERVER: 192.168.114.1#53(192.168.114.1)
+;; WHEN: Wed Apr 04 16:32:37 NZST 2018
+;; MSG SIZE  rcvd: 425
+
